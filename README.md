@@ -9,7 +9,7 @@ How to:
 
 2: creat a prefab that you want to pool.
 
-3: In you script creat a variable to hold the prefab to be pooled.
+3: In you script create a variable to hold the prefab to be pooled.
 
 4: get a pooled instance of you object with the following code
 
@@ -24,4 +24,4 @@ To return an object to the pool simply disable to object created above. This wil
 
 More info and how to's will come soon.
 
-This pakage also contains a sound pooler which acts more like an AudioSource with a build in playlist. 
+This package also contains a sound pooler which acts more like an AudioSource with a built in playlist. 
