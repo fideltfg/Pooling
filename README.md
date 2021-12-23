@@ -5,16 +5,16 @@ This is a system to allow you to pool any object/prefab in unity.
 
 How to:
 
-1: Add the Pooler prefab t you scene.
+1: Add the Pooler prefab to you scene.
 
-2: creat a prefab that you want to pool.
+2: Creat a prefab that you want to pool.
 
-3: In you script create a variable to hold the prefab to be pooled.
+3: In your script create a variable to hold the prefab to be pooled.
 
-4: get a pooled instance of you object with the following code
-
+4: Get a pooled instance of you object with the following code
 GameObject pooledObject = Pooling.Pooler.root.GetPooledInstance(prefab);
 
+5: Remember to activate the new game object
 pooledObject.SetActive(true);
 
 If this is the first time the code is called the pooler will creat a poola and start growing it as you call for more objects.
