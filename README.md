@@ -22,6 +22,4 @@ There is no limit to the number of prefabs you an pool or objects you can spawn.
 
 To return an object to the pool simply disable to object created above. This will allow the Pooler to cleanup or re use the object.
 
-More info and how to's will come soon.
-
 This package also contains a sound pooler which acts more like an AudioSource with a built in playlist. 
