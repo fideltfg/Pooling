@@ -20,9 +20,9 @@ GameObject pooledObject = Pooling.Pooler.root.GetPooledInstance(prefab);
 5: Remember to activate the new game object
 pooledObject.SetActive(true);
 
-If this is the first time the code is called the pooler will creat a poola and start growing it as you call for more objects.
-There is no limit to the number of prefabs you an pool or objects you can spawn.
+If this is the first time the code is called the pooler will creat a pool and start growing it as you call for more objects.
+There is no limit to the number of prefabs you can pool or objects you can spawn.
 
-To return an object to the pool simply disable to object created above. This will allow the Pooler to cleanup or re use the object.
+To return an object to the pool simply disable the object created above. This will allow the Pooler to cleanup or re use the object.
 
 This package also contains a sound pooler which acts more like an AudioSource with a built in playlist. 
