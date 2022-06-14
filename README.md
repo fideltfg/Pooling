@@ -12,7 +12,8 @@ How to:
 3: In your script create a variable to hold the prefab to be pooled.
 
 4: Get a pooled instance of you object with the following code
-GameObject pooledObject = Pooling.Pooler.root.GetPooledInstance(prefab);
+
+`code`GameObject pooledObject = Pooling.Pooler.root.GetPooledInstance(prefab);`code`
 
 5: Remember to activate the new game object
 pooledObject.SetActive(true);
